@@ -1,0 +1,32 @@
+.footer {
+  width: 90.625%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    width: 92.5%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 58.125%;
+    min-height: 310px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.header__links {
+  margin: 18px 0 6px;
+  padding: 0;
+  display: grid;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+  grid-auto-flow: column;
+  gap: 18px;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links {
+    margin-top: 14px;
+    margin-bottom: 8px;
+  }
+}
