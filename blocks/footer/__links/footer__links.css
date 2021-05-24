@@ -8,7 +8,7 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   list-style: none;
-  gap: 18px
+  gap: 18px;
 }
 
 @media screen and (max-width: 767px) {
