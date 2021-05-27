@@ -1,6 +1,5 @@
 .lead {
   max-width: 90.625%;
-  min-height: 962px;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -13,20 +12,19 @@
 
 @media screen and (min-width: 1280px) {
   .lead {
-    max-width: 76.875%;
-    min-height: 1005px;
+    max-width: 984px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
     max-width: 100%;
-    min-height: 862px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead {
-    min-height: 406px;
+    font-family: 'Inter', Arial, sans-serif;
+    /*min-height: 406px;*/
   }
 }

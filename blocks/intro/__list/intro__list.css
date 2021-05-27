@@ -10,3 +10,9 @@
   text-align: left;
   color: white;
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    max-width: 690px;
+  }
+}

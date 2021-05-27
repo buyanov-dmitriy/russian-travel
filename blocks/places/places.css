@@ -7,3 +7,11 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+@media screen and (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+    margin: auto;
+    margin-top: 92px;
+  }
+}

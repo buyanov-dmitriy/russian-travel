@@ -4,7 +4,9 @@
 
 @media screen and (min-width: 1280px) {
   .content__intro {
-    margin-left: 148px;
+    margin: auto;
+    margin-top: 92px;
+    margin-bottom: 92px;
   }
 }
 

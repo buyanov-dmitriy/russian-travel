@@ -1,5 +1,6 @@
 .header {
-  height: 52px;
+  font-family: 'Inter', Arial, sans-serif;
+  min-height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,6 +11,6 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    height: 42px;
+    min-height: 42px;
   }
 }

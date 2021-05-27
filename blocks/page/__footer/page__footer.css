@@ -4,6 +4,12 @@
   padding-bottom: 24px;
 }
 
+@media screen and (min-width: 1280px) {
+  .page__footer {
+    max-width: 1184px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .page__footer {
     margin-top: 88px;

@@ -7,3 +7,9 @@
   line-height: 1.63;
   color: white;
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    max-width: 690px;
+  }
+}
